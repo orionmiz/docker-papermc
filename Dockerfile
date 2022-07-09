@@ -49,7 +49,7 @@ EXPOSE 7070/tcp
 EXPOSE 7070/udp
 
 # Set memory size
-ARG memory_size=3G
+ARG memory_size=2G
 ENV MEMORYSIZE=$memory_size
 
 # Set Java Flags
