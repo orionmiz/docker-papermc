@@ -44,6 +44,10 @@ VOLUME "/data"
 EXPOSE 25565/tcp
 EXPOSE 25565/udp
 
+# Expose port of mabre-hub plugin
+EXPOSE 7070/tcp
+EXPOSE 7070/udp
+
 # Set memory size
 ARG memory_size=3G
 ENV MEMORYSIZE=$memory_size

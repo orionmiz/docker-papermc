@@ -10,6 +10,7 @@ services:
       - "/home/yourdir/minecraft:/data:rw"
     ports:
       - "25565:25565"
+      - "7070:7070"
     # The following allow `docker attach minecraft` to work
     stdin_open: true
     tty: true
